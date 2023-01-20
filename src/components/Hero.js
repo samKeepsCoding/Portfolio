@@ -1,15 +1,22 @@
 import React from 'react'
+import TypeWriterEffect from 'react-typewriter-effect';
 
 // Component Imports
 import Navbar from './Navbar'
 
+
 const Hero = () => {
+
+
   return (
     <>
     <div className='md:h-screen w-full max-w-7xl' id='#home'>
         <Navbar/>
         <div className='flex flex-col justify-center items-start mt-[12rem] w-full max-w-7xl px-16'>
             <div className='flex flex-col text-start'>
+                <TypeWriterEffect
+                    textS
+                />
                 <p className='text-green-300 text-sm'>Hi, my name is</p>
                 <h1 className='text-7xl text-slate-100 font-extrabold mt-3 uppercase'>Samuel Harris.</h1>
                 <h2 className='text-4xl lg:text-6xl font-extrabold mt-2 uppercase'>I build things for the web</h2>

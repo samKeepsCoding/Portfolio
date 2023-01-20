@@ -1,14 +1,12 @@
 import React from 'react'
 
-// Icon Imports
-import { IoLogoJavascript } from 'react-icons/io5'
 
-
-const SkillCard = () => {
+const SkillCard = ({icon, name}) => {
   return (
     <>
-        <div className='flex items-center justify-center rounded-full border p-2 cursor-pointer hover:scale-125 ease-in-out duration-100'>
-            <IoLogoJavascript size={80}/>
+        <div className='flex flex-col items-center justify-center rounded-full border p-3 cursor-pointer hover:scale-125 ease-in-out duration-100'>
+            {icon}
+            <p className='font-light text-sm'>{name}</p>
         </div>
     </>
   )
