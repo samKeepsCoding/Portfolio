@@ -10,8 +10,8 @@ const Hero = () => {
 
   return (
     <>
-    <div className='md:h-screen w-full max-w-7xl' id='#home'>
-        <Navbar/>
+    <div className='md:h-screen w-full max-w-7xl' id='home'>
+        
         <div className='flex flex-col justify-center items-start mt-[12rem] w-full max-w-7xl px-16'>
             <div className='flex flex-col text-start'>
                 <TypeWriterEffect

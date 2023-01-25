@@ -5,7 +5,7 @@ import Hero from '../assets/LAN_0676.jpg'
 const About = () => {
   return (
     <>
-        <div className=' w-full flex justify-center items-center p-4 mt-52 md:mt-8 px-8'>
+        <div className=' w-full flex justify-center items-center p-4 mt-52 md:mt-8 px-8' id='about'>
 
             <div className='flex flex-col md:flex-row space-x-0 md:space-x-9 justify-center items-between max-w-7xl'>
                 

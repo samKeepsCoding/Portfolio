@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <>
-        <div className='w-full flex flex-col justify-start items-center py-10 px-4'>
+        <div className='w-full flex flex-col justify-start items-center py-10 px-4' id='projects'>
             <div className='flex flex-row text-start items-center'>
                 <h3 className='text-2xl'> 
                     <span className='text-green-300'>03.</span>

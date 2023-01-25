@@ -25,7 +25,7 @@ import {
 const Skills = () => {
   return (
     <>
-        <div className='h-screen w-full flex flex-col justify-center items-center px-4'>
+        <div className='h-screen w-full flex flex-col justify-center items-center px-4' id='skills'>
             <div className='text-2xl w-full max-w-3xl flex items-center mb-8 flex-row-reverse'>
                 <h3 className=''> 
                     <span className='text-green-300'>02.</span>
